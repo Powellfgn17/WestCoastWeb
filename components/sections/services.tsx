@@ -11,7 +11,7 @@ const ServiceCards3D = dynamic(
   { ssr: false, loading: () => null },
 )
 
-const HIGHLIGHTS = [false, true, false]
+const HIGHLIGHTS = [false, false, true, false]
 
 export function Services() {
   const t = useT()
@@ -30,14 +30,15 @@ export function Services() {
             {t.services.label}
           </span>
           <h2 className="mt-3 max-w-3xl text-balance font-display text-4xl font-bold sm:text-5xl">
-            {t.services.title}
+            <span className="block">{t.services.titleLine1}</span>
+            <span className="block">{t.services.titleLine2}</span>
           </h2>
           <p className="mt-4 max-w-xl text-pretty text-sm leading-relaxed text-muted-foreground">
             {t.services.description}
           </p>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 gap-6 md:grid-cols-3">
+        <div className="mt-16 grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
           {t.services.plans.map((plan, i) => {
             const highlight = HIGHLIGHTS[i]
             return (
@@ -58,7 +59,7 @@ export function Services() {
                 )}
 
                 <span className="font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground">
-                  {String(i + 1).padStart(2, "0")} · Plan
+                  PLAN {String(i + 1).padStart(2, "0")}
                 </span>
                 <h3 className="mt-3 font-display text-2xl font-bold">{plan.name}</h3>
 
