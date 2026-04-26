@@ -25,21 +25,6 @@ export function Hero() {
       <div className="relative mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-8 px-6 lg:grid-cols-12">
         {/* Left content */}
         <div className="lg:col-span-6">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-3 rounded-full border border-border bg-card/60 px-4 py-1.5 backdrop-blur"
-          >
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
-            </span>
-            <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
-              {t.hero.available}
-            </span>
-          </motion.div>
-
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -113,7 +98,10 @@ export function Hero() {
         </div>
 
         {/* Right: 3D globe */}
-        <div className="relative h-[420px] w-full sm:h-[520px] lg:col-span-6 lg:h-[640px]">
+        <div
+          suppressHydrationWarning
+          className="relative h-[420px] w-full overflow-hidden sm:h-[520px] lg:col-span-6 lg:h-[640px]"
+        >
           {/* Corner labels */}
           <div className="pointer-events-none absolute inset-0 z-10">
             <div className="absolute left-4 top-4 font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">

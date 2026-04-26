@@ -33,9 +33,9 @@ export async function POST(req: Request) {
       body: JSON.stringify({
         from:
           process.env.RESEND_FROM_EMAIL ||
-          "Powell Digital <onboarding@resend.dev>",
+          "WestCoastWeb <onboarding@resend.dev>",
         to: process.env.CONTACT_EMAIL || "hello@powelldigital.com",
-        subject: `[Powell Digital] New inquiry from ${name}`,
+        subject: `[WestCoastWeb] New inquiry from ${name}`,
         reply_to: email,
         html: `
           <h2>New contact form submission</h2>

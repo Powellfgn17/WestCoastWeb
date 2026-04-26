@@ -40,14 +40,14 @@ export function SiteHeader() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <Link href="/" className="group flex items-center gap-2" aria-label="Powell Digital home">
+        <Link href="/" className="group flex items-center gap-2" aria-label="WestCoastWeb home">
           <div className="flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-card">
             <span className="font-display text-sm font-bold tracking-tight text-foreground">
-              PD
+              WCW
             </span>
           </div>
           <div className="hidden flex-col leading-tight sm:flex">
-            <span className="font-display text-sm font-bold">Powell Digital</span>
+            <span className="font-display text-sm font-bold">WestCoastWeb</span>
             <span className="font-mono text-[10px] text-muted-foreground">
               Cotonou → Worldwide
             </span>

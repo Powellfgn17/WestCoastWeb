@@ -29,7 +29,7 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Powell Digital — Websites for Local Businesses in 5 Days",
+  title: "WestCoastWeb — Websites for Local Businesses in 5 Days",
   description:
     "I build fast, mobile-first websites for barbershops, garages, and restaurants across the US, UK, and French-speaking Africa. Delivery in 5 days from $500.",
   generator: "v0.app",
@@ -42,9 +42,9 @@ export const metadata: Metadata = {
     "barbershop website",
     "garage website",
   ],
-  authors: [{ name: "Treasure Fagnon (Powell)" }],
+  authors: [{ name: "Powell Fagnon" }],
   openGraph: {
-    title: "Powell Digital — Websites for Local Businesses in 5 Days",
+    title: "WestCoastWeb — Websites for Local Businesses in 5 Days",
     description:
       "Clean, mobile-first websites delivered in 5 days for businesses that don't exist online yet.",
     type: "website",

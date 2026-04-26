@@ -28,8 +28,8 @@ const en = {
     ],
     scroll: "scroll",
     liveNetwork: "// live network",
-    cities: "4 cities",
-    cityList: "Cotonou · Charlotte · Birmingham · Lyon",
+    cities: "5 countries",
+    cityList: "Benin · United States · United Kingdom · France · Canada",
   },
   howItWorks: {
     label: "— How it works",
@@ -171,7 +171,7 @@ const en = {
     pricingLink: "Pricing",
     reviewsLink: "Reviews",
     contactLink: "Contact",
-    copyright: "© 2026 Powell Digital · Built by Powell from Cotonou, Benin",
+    copyright: "© 2026 WestCoastWeb · Built by Powell from Cotonou, Benin",
     status: "Status · All systems operational",
   },
 }
@@ -200,8 +200,8 @@ const fr: typeof en = {
     ],
     scroll: "défiler",
     liveNetwork: "// réseau actif",
-    cities: "4 villes",
-    cityList: "Cotonou · Charlotte · Birmingham · Lyon",
+    cities: "5 pays",
+    cityList: "Bénin · États-Unis · Royaume-Uni · France · Canada",
   },
   howItWorks: {
     label: "— Comment ça marche",
@@ -344,7 +344,7 @@ const fr: typeof en = {
     pricingLink: "Tarifs",
     reviewsLink: "Avis",
     contactLink: "Contact",
-    copyright: "© 2026 Powell Digital · Créé par Powell depuis Cotonou, Bénin",
+    copyright: "© 2026 WestCoastWeb · Créé par Powell depuis Cotonou, Bénin",
     status: "Statut · Tous les systèmes opérationnels",
   },
 }

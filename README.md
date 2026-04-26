@@ -1,4 +1,4 @@
-# Powell Digital — Websites for Local Businesses in 5 Days
+# WestCoastWeb — Websites for Local Businesses in 5 Days
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue?logo=typescript)
@@ -6,7 +6,7 @@
 ![Three.js](https://img.shields.io/badge/Three.js-r184-black?logo=three.js)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-A premium, dark-themed landing page for **Powell Digital** — a solo web agency that builds fast, mobile-first websites for local businesses (barbershops, garages, restaurants) across the US, UK, and French-speaking Africa.
+A premium, dark-themed landing page for **WestCoastWeb** — a solo web agency that builds fast, mobile-first websites for local businesses (barbershops, garages, restaurants) across the US, UK, and French-speaking Africa.
 
 > **Live:** _Coming soon_  
 > **Built by:** [Treasure Fagnon (Powell)](https://github.com/Powellfgn17) from Cotonou, Benin 🇧🇯

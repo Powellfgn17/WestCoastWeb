@@ -17,10 +17,10 @@ export function SiteFooter() {
           <div className="col-span-2 md:col-span-2">
             <Link href="/" className="flex items-center gap-2">
               <div className="flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-card">
-                <span className="font-display text-sm font-bold">PD</span>
+                <span className="font-display text-sm font-bold">WCW</span>
               </div>
               <div className="flex flex-col leading-tight">
-                <span className="font-display text-sm font-bold">Powell Digital</span>
+                <span className="font-display text-sm font-bold">WestCoastWeb</span>
                 <span className="font-mono text-[10px] text-muted-foreground">
                   {t.footer.tagline}
                 </span>
